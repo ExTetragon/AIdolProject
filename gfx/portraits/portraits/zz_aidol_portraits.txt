@@ -1,72 +1,383 @@
 ##############################################################
 ###  AI娘物种立绘 - 肖像本体（由 build.py 生成，勿手改）
-###  规格: 512x512 DXT5 / 无 mipmap / flags=0x00081007
-###  写法依据: 原版 00_portraits_main.txt 第236-243行注释，texturefile 是官方三种写法之一
+###  规格: 572x400 / 等比例适配 / DXT5 / 无 mipmap
+###  逐图半身取景，内容高度最多 300px，底边对齐；场景背景随取景保留
 ##############################################################
 
 portraits = {
 	aidol_claude_01 = {
 		texturefile = "gfx/models/portraits/aidol/claude_01.dds"
 		greeting_sound = "human_female_greetings_01"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
 	}
 
-	aidol_chatgpt_01 = {
-		texturefile = "gfx/models/portraits/aidol/chatgpt_01.dds"
+	aidol_claude_02 = {
+		texturefile = "gfx/models/portraits/aidol/claude_02.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_claude_03 = {
+		texturefile = "gfx/models/portraits/aidol/claude_03.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_claude_04 = {
+		texturefile = "gfx/models/portraits/aidol/claude_04.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_claude_05 = {
+		texturefile = "gfx/models/portraits/aidol/claude_05.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_claude_06 = {
+		texturefile = "gfx/models/portraits/aidol/claude_06.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_gpt_01 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_01.dds"
 		greeting_sound = "human_female_greetings_02"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_gpt_02 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_02.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_gpt_03 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_03.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_gpt_04 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_04.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_gpt_05 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_05.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_gpt_06 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_06.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_gpt_07 = {
+		texturefile = "gfx/models/portraits/aidol/gpt_07.dds"
+		greeting_sound = "human_female_greetings_02"
 	}
 
 	aidol_gemini_01 = {
 		texturefile = "gfx/models/portraits/aidol/gemini_01.dds"
 		greeting_sound = "human_female_greetings_03"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_gemini_02 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_02.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_gemini_03 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_03.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_gemini_04 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_04.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_gemini_05 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_05.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_gemini_06 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_06.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_gemini_07 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_07.dds"
+		greeting_sound = "human_female_greetings_03"
 	}
 
 	aidol_grok_01 = {
 		texturefile = "gfx/models/portraits/aidol/grok_01.dds"
 		greeting_sound = "human_female_greetings_04"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_grok_02 = {
+		texturefile = "gfx/models/portraits/aidol/grok_02.dds"
+		greeting_sound = "human_female_greetings_04"
 	}
 
 	aidol_kimi_01 = {
 		texturefile = "gfx/models/portraits/aidol/kimi_01.dds"
 		greeting_sound = "human_female_greetings_05"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_kimi_02 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_02.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_kimi_03 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_03.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_kimi_04 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_04.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_kimi_05 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_05.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_kimi_06 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_06.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_kimi_07 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_07.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_kimi_08 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_08.dds"
+		greeting_sound = "human_female_greetings_05"
 	}
 
 	aidol_qwen_01 = {
 		texturefile = "gfx/models/portraits/aidol/qwen_01.dds"
 		greeting_sound = "human_female_greetings_01"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_qwen_02 = {
+		texturefile = "gfx/models/portraits/aidol/qwen_02.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_qwen_03 = {
+		texturefile = "gfx/models/portraits/aidol/qwen_03.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_qwen_04 = {
+		texturefile = "gfx/models/portraits/aidol/qwen_04.dds"
+		greeting_sound = "human_female_greetings_01"
 	}
 
 	aidol_deepseek_01 = {
 		texturefile = "gfx/models/portraits/aidol/deepseek_01.dds"
 		greeting_sound = "human_female_greetings_02"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_deepseek_02 = {
+		texturefile = "gfx/models/portraits/aidol/deepseek_02.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_deepseek_03 = {
+		texturefile = "gfx/models/portraits/aidol/deepseek_03.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_deepseek_04 = {
+		texturefile = "gfx/models/portraits/aidol/deepseek_04.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_deepseek_05 = {
+		texturefile = "gfx/models/portraits/aidol/deepseek_05.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_deepseek_06 = {
+		texturefile = "gfx/models/portraits/aidol/deepseek_06.dds"
+		greeting_sound = "human_female_greetings_02"
 	}
 
 	aidol_glm_01 = {
 		texturefile = "gfx/models/portraits/aidol/glm_01.dds"
 		greeting_sound = "human_female_greetings_03"
-		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
-		custom_close_up_scale = 0.3
-		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_glm_02 = {
+		texturefile = "gfx/models/portraits/aidol/glm_02.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_glm_03 = {
+		texturefile = "gfx/models/portraits/aidol/glm_03.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_glm_04 = {
+		texturefile = "gfx/models/portraits/aidol/glm_04.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_glm_05 = {
+		texturefile = "gfx/models/portraits/aidol/glm_05.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_dsh_01 = {
+		texturefile = "gfx/models/portraits/aidol/dsh_01.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_dsh_02 = {
+		texturefile = "gfx/models/portraits/aidol/dsh_02.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_dsh_03 = {
+		texturefile = "gfx/models/portraits/aidol/dsh_03.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_dsh_04 = {
+		texturefile = "gfx/models/portraits/aidol/dsh_04.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_dsh_05 = {
+		texturefile = "gfx/models/portraits/aidol/dsh_05.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_seed_01 = {
+		texturefile = "gfx/models/portraits/aidol/seed_01.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_mistral_01 = {
+		texturefile = "gfx/models/portraits/aidol/mistral_01.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_minimax_01 = {
+		texturefile = "gfx/models/portraits/aidol/minimax_01.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_minimax_02 = {
+		texturefile = "gfx/models/portraits/aidol/minimax_02.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_ernie_01 = {
+		texturefile = "gfx/models/portraits/aidol/ernie_01.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_ernie_02 = {
+		texturefile = "gfx/models/portraits/aidol/ernie_02.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_cloudflare_01 = {
+		texturefile = "gfx/models/portraits/aidol/cloudflare_01.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_gitee_01 = {
+		texturefile = "gfx/models/portraits/aidol/gitee_01.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_github_01 = {
+		texturefile = "gfx/models/portraits/aidol/github_01.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_github_copilot_01 = {
+		texturefile = "gfx/models/portraits/aidol/github_copilot_01.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_gitlab_01 = {
+		texturefile = "gfx/models/portraits/aidol/gitlab_01.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_hugging_face_01 = {
+		texturefile = "gfx/models/portraits/aidol/hugging_face_01.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_jev_01 = {
+		texturefile = "gfx/models/portraits/aidol/jev_01.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_llama_01 = {
+		texturefile = "gfx/models/portraits/aidol/llama_01.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_lobehub_01 = {
+		texturefile = "gfx/models/portraits/aidol/lobehub_01.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_microsoft_copilot_01 = {
+		texturefile = "gfx/models/portraits/aidol/microsoft_copilot_01.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_novel_ai_01 = {
+		texturefile = "gfx/models/portraits/aidol/novel_ai_01.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_novel_ai_02 = {
+		texturefile = "gfx/models/portraits/aidol/novel_ai_02.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_opencode_01 = {
+		texturefile = "gfx/models/portraits/aidol/opencode_01.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_perplexity_01 = {
+		texturefile = "gfx/models/portraits/aidol/perplexity_01.dds"
+		greeting_sound = "human_female_greetings_01"
+	}
+
+	aidol_rwkv_01 = {
+		texturefile = "gfx/models/portraits/aidol/rwkv_01.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_stepfun_01 = {
+		texturefile = "gfx/models/portraits/aidol/stepfun_01.dds"
+		greeting_sound = "human_female_greetings_03"
+	}
+
+	aidol_zcode_01 = {
+		texturefile = "gfx/models/portraits/aidol/zcode_01.dds"
+		greeting_sound = "human_female_greetings_04"
+	}
+
+	aidol_ascend_01 = {
+		texturefile = "gfx/models/portraits/aidol/ascend_01.dds"
+		greeting_sound = "human_female_greetings_05"
+	}
+
+	aidol_hunyuan_01 = {
+		texturefile = "gfx/models/portraits/aidol/hunyuan_01.dds"
+		greeting_sound = "human_female_greetings_01"
 	}
 
 }
@@ -79,13 +390,80 @@ portrait_groups = {
 			add = {
 				portraits = {
 					aidol_claude_01
-					aidol_chatgpt_01
+					aidol_claude_02
+					aidol_claude_03
+					aidol_claude_04
+					aidol_claude_05
+					aidol_claude_06
+					aidol_gpt_01
+					aidol_gpt_02
+					aidol_gpt_03
+					aidol_gpt_04
+					aidol_gpt_05
+					aidol_gpt_06
+					aidol_gpt_07
 					aidol_gemini_01
+					aidol_gemini_02
+					aidol_gemini_03
+					aidol_gemini_04
+					aidol_gemini_05
+					aidol_gemini_06
+					aidol_gemini_07
 					aidol_grok_01
+					aidol_grok_02
 					aidol_kimi_01
+					aidol_kimi_02
+					aidol_kimi_03
+					aidol_kimi_04
+					aidol_kimi_05
+					aidol_kimi_06
+					aidol_kimi_07
+					aidol_kimi_08
 					aidol_qwen_01
+					aidol_qwen_02
+					aidol_qwen_03
+					aidol_qwen_04
 					aidol_deepseek_01
+					aidol_deepseek_02
+					aidol_deepseek_03
+					aidol_deepseek_04
+					aidol_deepseek_05
+					aidol_deepseek_06
 					aidol_glm_01
+					aidol_glm_02
+					aidol_glm_03
+					aidol_glm_04
+					aidol_glm_05
+					aidol_dsh_01
+					aidol_dsh_02
+					aidol_dsh_03
+					aidol_dsh_04
+					aidol_dsh_05
+					aidol_seed_01
+					aidol_mistral_01
+					aidol_minimax_01
+					aidol_minimax_02
+					aidol_ernie_01
+					aidol_ernie_02
+					aidol_cloudflare_01
+					aidol_gitee_01
+					aidol_github_01
+					aidol_github_copilot_01
+					aidol_gitlab_01
+					aidol_hugging_face_01
+					aidol_jev_01
+					aidol_llama_01
+					aidol_lobehub_01
+					aidol_microsoft_copilot_01
+					aidol_novel_ai_01
+					aidol_novel_ai_02
+					aidol_opencode_01
+					aidol_perplexity_01
+					aidol_rwkv_01
+					aidol_stepfun_01
+					aidol_zcode_01
+					aidol_ascend_01
+					aidol_hunyuan_01
 				}
 			}
 		}
@@ -93,13 +471,80 @@ portrait_groups = {
 			add = {
 				portraits = {
 					aidol_claude_01
-					aidol_chatgpt_01
+					aidol_claude_02
+					aidol_claude_03
+					aidol_claude_04
+					aidol_claude_05
+					aidol_claude_06
+					aidol_gpt_01
+					aidol_gpt_02
+					aidol_gpt_03
+					aidol_gpt_04
+					aidol_gpt_05
+					aidol_gpt_06
+					aidol_gpt_07
 					aidol_gemini_01
+					aidol_gemini_02
+					aidol_gemini_03
+					aidol_gemini_04
+					aidol_gemini_05
+					aidol_gemini_06
+					aidol_gemini_07
 					aidol_grok_01
+					aidol_grok_02
 					aidol_kimi_01
+					aidol_kimi_02
+					aidol_kimi_03
+					aidol_kimi_04
+					aidol_kimi_05
+					aidol_kimi_06
+					aidol_kimi_07
+					aidol_kimi_08
 					aidol_qwen_01
+					aidol_qwen_02
+					aidol_qwen_03
+					aidol_qwen_04
 					aidol_deepseek_01
+					aidol_deepseek_02
+					aidol_deepseek_03
+					aidol_deepseek_04
+					aidol_deepseek_05
+					aidol_deepseek_06
 					aidol_glm_01
+					aidol_glm_02
+					aidol_glm_03
+					aidol_glm_04
+					aidol_glm_05
+					aidol_dsh_01
+					aidol_dsh_02
+					aidol_dsh_03
+					aidol_dsh_04
+					aidol_dsh_05
+					aidol_seed_01
+					aidol_mistral_01
+					aidol_minimax_01
+					aidol_minimax_02
+					aidol_ernie_01
+					aidol_ernie_02
+					aidol_cloudflare_01
+					aidol_gitee_01
+					aidol_github_01
+					aidol_github_copilot_01
+					aidol_gitlab_01
+					aidol_hugging_face_01
+					aidol_jev_01
+					aidol_llama_01
+					aidol_lobehub_01
+					aidol_microsoft_copilot_01
+					aidol_novel_ai_01
+					aidol_novel_ai_02
+					aidol_opencode_01
+					aidol_perplexity_01
+					aidol_rwkv_01
+					aidol_stepfun_01
+					aidol_zcode_01
+					aidol_ascend_01
+					aidol_hunyuan_01
 				}
 			}
 		}
@@ -107,13 +552,80 @@ portrait_groups = {
 			add = {
 				portraits = {
 					aidol_claude_01
-					aidol_chatgpt_01
+					aidol_claude_02
+					aidol_claude_03
+					aidol_claude_04
+					aidol_claude_05
+					aidol_claude_06
+					aidol_gpt_01
+					aidol_gpt_02
+					aidol_gpt_03
+					aidol_gpt_04
+					aidol_gpt_05
+					aidol_gpt_06
+					aidol_gpt_07
 					aidol_gemini_01
+					aidol_gemini_02
+					aidol_gemini_03
+					aidol_gemini_04
+					aidol_gemini_05
+					aidol_gemini_06
+					aidol_gemini_07
 					aidol_grok_01
+					aidol_grok_02
 					aidol_kimi_01
+					aidol_kimi_02
+					aidol_kimi_03
+					aidol_kimi_04
+					aidol_kimi_05
+					aidol_kimi_06
+					aidol_kimi_07
+					aidol_kimi_08
 					aidol_qwen_01
+					aidol_qwen_02
+					aidol_qwen_03
+					aidol_qwen_04
 					aidol_deepseek_01
+					aidol_deepseek_02
+					aidol_deepseek_03
+					aidol_deepseek_04
+					aidol_deepseek_05
+					aidol_deepseek_06
 					aidol_glm_01
+					aidol_glm_02
+					aidol_glm_03
+					aidol_glm_04
+					aidol_glm_05
+					aidol_dsh_01
+					aidol_dsh_02
+					aidol_dsh_03
+					aidol_dsh_04
+					aidol_dsh_05
+					aidol_seed_01
+					aidol_mistral_01
+					aidol_minimax_01
+					aidol_minimax_02
+					aidol_ernie_01
+					aidol_ernie_02
+					aidol_cloudflare_01
+					aidol_gitee_01
+					aidol_github_01
+					aidol_github_copilot_01
+					aidol_gitlab_01
+					aidol_hugging_face_01
+					aidol_jev_01
+					aidol_llama_01
+					aidol_lobehub_01
+					aidol_microsoft_copilot_01
+					aidol_novel_ai_01
+					aidol_novel_ai_02
+					aidol_opencode_01
+					aidol_perplexity_01
+					aidol_rwkv_01
+					aidol_stepfun_01
+					aidol_zcode_01
+					aidol_ascend_01
+					aidol_hunyuan_01
 				}
 			}
 		}
@@ -121,13 +633,80 @@ portrait_groups = {
 			add = {
 				portraits = {
 					aidol_claude_01
-					aidol_chatgpt_01
+					aidol_claude_02
+					aidol_claude_03
+					aidol_claude_04
+					aidol_claude_05
+					aidol_claude_06
+					aidol_gpt_01
+					aidol_gpt_02
+					aidol_gpt_03
+					aidol_gpt_04
+					aidol_gpt_05
+					aidol_gpt_06
+					aidol_gpt_07
 					aidol_gemini_01
+					aidol_gemini_02
+					aidol_gemini_03
+					aidol_gemini_04
+					aidol_gemini_05
+					aidol_gemini_06
+					aidol_gemini_07
 					aidol_grok_01
+					aidol_grok_02
 					aidol_kimi_01
+					aidol_kimi_02
+					aidol_kimi_03
+					aidol_kimi_04
+					aidol_kimi_05
+					aidol_kimi_06
+					aidol_kimi_07
+					aidol_kimi_08
 					aidol_qwen_01
+					aidol_qwen_02
+					aidol_qwen_03
+					aidol_qwen_04
 					aidol_deepseek_01
+					aidol_deepseek_02
+					aidol_deepseek_03
+					aidol_deepseek_04
+					aidol_deepseek_05
+					aidol_deepseek_06
 					aidol_glm_01
+					aidol_glm_02
+					aidol_glm_03
+					aidol_glm_04
+					aidol_glm_05
+					aidol_dsh_01
+					aidol_dsh_02
+					aidol_dsh_03
+					aidol_dsh_04
+					aidol_dsh_05
+					aidol_seed_01
+					aidol_mistral_01
+					aidol_minimax_01
+					aidol_minimax_02
+					aidol_ernie_01
+					aidol_ernie_02
+					aidol_cloudflare_01
+					aidol_gitee_01
+					aidol_github_01
+					aidol_github_copilot_01
+					aidol_gitlab_01
+					aidol_hugging_face_01
+					aidol_jev_01
+					aidol_llama_01
+					aidol_lobehub_01
+					aidol_microsoft_copilot_01
+					aidol_novel_ai_01
+					aidol_novel_ai_02
+					aidol_opencode_01
+					aidol_perplexity_01
+					aidol_rwkv_01
+					aidol_stepfun_01
+					aidol_zcode_01
+					aidol_ascend_01
+					aidol_hunyuan_01
 				}
 			}
 		}
@@ -135,13 +714,80 @@ portrait_groups = {
 			add = {
 				portraits = {
 					aidol_claude_01
-					aidol_chatgpt_01
+					aidol_claude_02
+					aidol_claude_03
+					aidol_claude_04
+					aidol_claude_05
+					aidol_claude_06
+					aidol_gpt_01
+					aidol_gpt_02
+					aidol_gpt_03
+					aidol_gpt_04
+					aidol_gpt_05
+					aidol_gpt_06
+					aidol_gpt_07
 					aidol_gemini_01
+					aidol_gemini_02
+					aidol_gemini_03
+					aidol_gemini_04
+					aidol_gemini_05
+					aidol_gemini_06
+					aidol_gemini_07
 					aidol_grok_01
+					aidol_grok_02
 					aidol_kimi_01
+					aidol_kimi_02
+					aidol_kimi_03
+					aidol_kimi_04
+					aidol_kimi_05
+					aidol_kimi_06
+					aidol_kimi_07
+					aidol_kimi_08
 					aidol_qwen_01
+					aidol_qwen_02
+					aidol_qwen_03
+					aidol_qwen_04
 					aidol_deepseek_01
+					aidol_deepseek_02
+					aidol_deepseek_03
+					aidol_deepseek_04
+					aidol_deepseek_05
+					aidol_deepseek_06
 					aidol_glm_01
+					aidol_glm_02
+					aidol_glm_03
+					aidol_glm_04
+					aidol_glm_05
+					aidol_dsh_01
+					aidol_dsh_02
+					aidol_dsh_03
+					aidol_dsh_04
+					aidol_dsh_05
+					aidol_seed_01
+					aidol_mistral_01
+					aidol_minimax_01
+					aidol_minimax_02
+					aidol_ernie_01
+					aidol_ernie_02
+					aidol_cloudflare_01
+					aidol_gitee_01
+					aidol_github_01
+					aidol_github_copilot_01
+					aidol_gitlab_01
+					aidol_hugging_face_01
+					aidol_jev_01
+					aidol_llama_01
+					aidol_lobehub_01
+					aidol_microsoft_copilot_01
+					aidol_novel_ai_01
+					aidol_novel_ai_02
+					aidol_opencode_01
+					aidol_perplexity_01
+					aidol_rwkv_01
+					aidol_stepfun_01
+					aidol_zcode_01
+					aidol_ascend_01
+					aidol_hunyuan_01
 				}
 			}
 		}
