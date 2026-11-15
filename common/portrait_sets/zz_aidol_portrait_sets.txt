@@ -1,0 +1,21 @@
+##############################################################
+###  AI娘物种立绘 - 肖像归组（由 build.py 生成，勿手改）
+###  只【新增】自己的 set，不覆盖原版 00_portrait_sets.txt
+###  多个 portrait_set 共享同一个 species_class 是官方支持的写法
+##############################################################
+
+aidol_portraits = {
+	species_class = HUM
+
+	portraits = {
+		"aidol"
+	}
+}
+
+aidol_machine_portraits = {
+	species_class = MACHINE
+
+	portraits = {
+		"aidol"
+	}
+}

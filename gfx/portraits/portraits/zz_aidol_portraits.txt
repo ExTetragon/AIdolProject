@@ -1,0 +1,149 @@
+##############################################################
+###  AI娘物种立绘 - 肖像本体（由 build.py 生成，勿手改）
+###  规格: 512x512 DXT5 / 无 mipmap / flags=0x00081007
+###  写法依据: 原版 00_portraits_main.txt 第236-243行注释，texturefile 是官方三种写法之一
+##############################################################
+
+portraits = {
+	aidol_claude_01 = {
+		texturefile = "gfx/models/portraits/aidol/claude_01.dds"
+		greeting_sound = "human_female_greetings_01"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_chatgpt_01 = {
+		texturefile = "gfx/models/portraits/aidol/chatgpt_01.dds"
+		greeting_sound = "human_female_greetings_02"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_gemini_01 = {
+		texturefile = "gfx/models/portraits/aidol/gemini_01.dds"
+		greeting_sound = "human_female_greetings_03"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_grok_01 = {
+		texturefile = "gfx/models/portraits/aidol/grok_01.dds"
+		greeting_sound = "human_female_greetings_04"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_kimi_01 = {
+		texturefile = "gfx/models/portraits/aidol/kimi_01.dds"
+		greeting_sound = "human_female_greetings_05"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_qwen_01 = {
+		texturefile = "gfx/models/portraits/aidol/qwen_01.dds"
+		greeting_sound = "human_female_greetings_01"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_deepseek_01 = {
+		texturefile = "gfx/models/portraits/aidol/deepseek_01.dds"
+		greeting_sound = "human_female_greetings_02"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+	aidol_glm_01 = {
+		texturefile = "gfx/models/portraits/aidol/glm_01.dds"
+		greeting_sound = "human_female_greetings_03"
+		# 创建帝国界面顶部大预览约 480x150 横向，2D 图会被放大填满宽度导致上半身出画
+		custom_close_up_scale = 0.3
+		custom_close_up_position_offset = { x = 0 y = 0 }
+	}
+
+}
+
+# 一个可选肖像组，内部包含所有 AI娘角色变体。
+portrait_groups = {
+	aidol = {
+		default = aidol_claude_01
+		game_setup = {
+			add = {
+				portraits = {
+					aidol_claude_01
+					aidol_chatgpt_01
+					aidol_gemini_01
+					aidol_grok_01
+					aidol_kimi_01
+					aidol_qwen_01
+					aidol_deepseek_01
+					aidol_glm_01
+				}
+			}
+		}
+		species = {
+			add = {
+				portraits = {
+					aidol_claude_01
+					aidol_chatgpt_01
+					aidol_gemini_01
+					aidol_grok_01
+					aidol_kimi_01
+					aidol_qwen_01
+					aidol_deepseek_01
+					aidol_glm_01
+				}
+			}
+		}
+		pop = {
+			add = {
+				portraits = {
+					aidol_claude_01
+					aidol_chatgpt_01
+					aidol_gemini_01
+					aidol_grok_01
+					aidol_kimi_01
+					aidol_qwen_01
+					aidol_deepseek_01
+					aidol_glm_01
+				}
+			}
+		}
+		leader = {
+			add = {
+				portraits = {
+					aidol_claude_01
+					aidol_chatgpt_01
+					aidol_gemini_01
+					aidol_grok_01
+					aidol_kimi_01
+					aidol_qwen_01
+					aidol_deepseek_01
+					aidol_glm_01
+				}
+			}
+		}
+		ruler = {
+			add = {
+				portraits = {
+					aidol_claude_01
+					aidol_chatgpt_01
+					aidol_gemini_01
+					aidol_grok_01
+					aidol_kimi_01
+					aidol_qwen_01
+					aidol_deepseek_01
+					aidol_glm_01
+				}
+			}
+		}
+	}
+}

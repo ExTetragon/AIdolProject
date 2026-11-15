@@ -1,0 +1,96 @@
+{
+  "mod": {
+    "name": "AI娘物种立绘",
+    "english_name": "AIdol Portrait",
+    "dir_name": "AIdolPortrait",
+    "version": "0.1.0",
+    "supported_version": "v4.5.4",
+    "tags": [
+      "Species"
+    ]
+  },
+  "assets_root": "立绘素材",
+  "roles": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "greeting_sound": "human_female_greetings_01"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "greeting_sound": "human_female_greetings_02"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "greeting_sound": "human_female_greetings_03"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "greeting_sound": "human_female_greetings_04"
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "greeting_sound": "human_female_greetings_05"
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "greeting_sound": "human_female_greetings_01"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "greeting_sound": "human_female_greetings_02"
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "greeting_sound": "human_female_greetings_03"
+    }
+  ],
+  "pools": [
+    {
+      "set": "aidol_portraits",
+      "species_class": "HUM",
+      "categories": [
+        {
+          "id": "humanoids",
+          "name": "HUM"
+        },
+        {
+          "id": "synthetics",
+          "name": "SYNTH"
+        },
+        {
+          "id": "cybernetics",
+          "name": "CYBERNETIC"
+        }
+      ]
+    },
+    {
+      "set": "aidol_machine_portraits",
+      "species_class": "MACHINE",
+      "categories": [
+        {
+          "id": "machines",
+          "name": "MACHINE"
+        }
+      ]
+    }
+  ],
+  "default_greeting_sound": "human_female_greetings_01",
+  "cover": {
+    "file": "thumbnail.png",
+    "width": 600,
+    "height": 400
+  },
+  "dds": {
+    "size": 512,
+    "close_up_scale": 0.3
+  },
+  "portrait_group": "aidol"
+}

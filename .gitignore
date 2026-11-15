@@ -1,0 +1,11 @@
+# Local development notes
+HANDOFF.md
+CHANGELOG.md
+
+# Editor and Python caches
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
