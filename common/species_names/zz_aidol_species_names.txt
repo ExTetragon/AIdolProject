@@ -1,0 +1,105 @@
+##############################################################
+###  AI娘物种立绘 - 随机物种/母星/恒星名（由 build_namelist.py 生成，勿手改）
+##############################################################
+
+HUM = {
+	aidol_hum_01 = {
+		name = AIDOL_SPEC_01
+		plural = AIDOL_SPEC_01_pl
+		home_planet = AIDOL_SPEC_01_planet
+		home_system = AIDOL_SPEC_01_system
+		name_list = "AIDOL"
+	}
+
+	aidol_hum_02 = {
+		name = AIDOL_SPEC_02
+		plural = AIDOL_SPEC_02_pl
+		home_planet = AIDOL_SPEC_02_planet
+		home_system = AIDOL_SPEC_02_system
+		name_list = "AIDOL"
+	}
+
+	aidol_hum_03 = {
+		name = AIDOL_SPEC_03
+		plural = AIDOL_SPEC_03_pl
+		home_planet = AIDOL_SPEC_03_planet
+		home_system = AIDOL_SPEC_03_system
+		name_list = "AIDOL"
+	}
+
+	aidol_hum_04 = {
+		name = AIDOL_SPEC_04
+		plural = AIDOL_SPEC_04_pl
+		home_planet = AIDOL_SPEC_04_planet
+		home_system = AIDOL_SPEC_04_system
+		name_list = "AIDOL"
+	}
+
+	aidol_hum_05 = {
+		name = AIDOL_SPEC_05
+		plural = AIDOL_SPEC_05_pl
+		home_planet = AIDOL_SPEC_05_planet
+		home_system = AIDOL_SPEC_05_system
+		name_list = "AIDOL"
+	}
+
+	aidol_hum_06 = {
+		name = AIDOL_SPEC_06
+		plural = AIDOL_SPEC_06_pl
+		home_planet = AIDOL_SPEC_06_planet
+		home_system = AIDOL_SPEC_06_system
+		name_list = "AIDOL"
+	}
+
+}
+
+MACHINE = {
+	aidol_machine_01 = {
+		name = AIDOL_SPEC_01
+		plural = AIDOL_SPEC_01_pl
+		home_planet = AIDOL_SPEC_01_planet
+		home_system = AIDOL_SPEC_01_system
+		name_list = "AIDOL"
+	}
+
+	aidol_machine_02 = {
+		name = AIDOL_SPEC_02
+		plural = AIDOL_SPEC_02_pl
+		home_planet = AIDOL_SPEC_02_planet
+		home_system = AIDOL_SPEC_02_system
+		name_list = "AIDOL"
+	}
+
+	aidol_machine_03 = {
+		name = AIDOL_SPEC_03
+		plural = AIDOL_SPEC_03_pl
+		home_planet = AIDOL_SPEC_03_planet
+		home_system = AIDOL_SPEC_03_system
+		name_list = "AIDOL"
+	}
+
+	aidol_machine_04 = {
+		name = AIDOL_SPEC_04
+		plural = AIDOL_SPEC_04_pl
+		home_planet = AIDOL_SPEC_04_planet
+		home_system = AIDOL_SPEC_04_system
+		name_list = "AIDOL"
+	}
+
+	aidol_machine_05 = {
+		name = AIDOL_SPEC_05
+		plural = AIDOL_SPEC_05_pl
+		home_planet = AIDOL_SPEC_05_planet
+		home_system = AIDOL_SPEC_05_system
+		name_list = "AIDOL"
+	}
+
+	aidol_machine_06 = {
+		name = AIDOL_SPEC_06
+		plural = AIDOL_SPEC_06_pl
+		home_planet = AIDOL_SPEC_06_planet
+		home_system = AIDOL_SPEC_06_system
+		name_list = "AIDOL"
+	}
+
+}
