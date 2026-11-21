@@ -380,6 +380,21 @@ portraits = {
 		greeting_sound = "human_female_greetings_01"
 	}
 
+	aidol_doubao_01 = {
+		texturefile = "gfx/models/portraits/aidol/doubao_01.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_doubao_02 = {
+		texturefile = "gfx/models/portraits/aidol/doubao_02.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
+	aidol_doubao_03 = {
+		texturefile = "gfx/models/portraits/aidol/doubao_03.dds"
+		greeting_sound = "human_female_greetings_02"
+	}
+
 }
 
 # 一个可选肖像组，内部包含所有 AI娘角色变体。
@@ -464,6 +479,9 @@ portrait_groups = {
 					aidol_zcode_01
 					aidol_ascend_01
 					aidol_hunyuan_01
+					aidol_doubao_01
+					aidol_doubao_02
+					aidol_doubao_03
 				}
 			}
 		}
@@ -545,6 +563,9 @@ portrait_groups = {
 					aidol_zcode_01
 					aidol_ascend_01
 					aidol_hunyuan_01
+					aidol_doubao_01
+					aidol_doubao_02
+					aidol_doubao_03
 				}
 			}
 		}
@@ -626,6 +647,9 @@ portrait_groups = {
 					aidol_zcode_01
 					aidol_ascend_01
 					aidol_hunyuan_01
+					aidol_doubao_01
+					aidol_doubao_02
+					aidol_doubao_03
 				}
 			}
 		}
@@ -707,6 +731,9 @@ portrait_groups = {
 					aidol_zcode_01
 					aidol_ascend_01
 					aidol_hunyuan_01
+					aidol_doubao_01
+					aidol_doubao_02
+					aidol_doubao_03
 				}
 			}
 		}
@@ -788,6 +815,9 @@ portrait_groups = {
 					aidol_zcode_01
 					aidol_ascend_01
 					aidol_hunyuan_01
+					aidol_doubao_01
+					aidol_doubao_02
+					aidol_doubao_03
 				}
 			}
 		}
